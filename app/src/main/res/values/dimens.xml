@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="quantityButton">50dp</dimen>
+    <dimen name="quantityMargin">10dp</dimen>
+    <dimen name="buttonMargin">10dp</dimen>
+</resources>

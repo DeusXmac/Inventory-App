@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".InventoryEditor">
+
+            <EditText
+                android:id="@+id/productName"
+                android:hint="@string/productName"
+                android:inputType="textCapWords"
+                style="@style/Editor_Style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dollar"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+            <EditText
+                android:id="@+id/price"
+                android:inputType="number"
+                android:hint="@string/price"
+                android:layout_marginLeft="5dp"
+                style="@style/Editor_Style" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/quantity"
+                android:textColor="@color/black"
+                style="@style/Editor_Style"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/decrease"
+                android:layout_width="@dimen/quantityButton"
+                android:layout_height="@dimen/quantityButton"
+                android:text="@string/decreaseButton" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_marginLeft="@dimen/quantityMargin"
+                android:layout_marginRight="@dimen/quantityMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/increase"
+                android:layout_width="@dimen/quantityButton"
+                android:layout_height="@dimen/quantityButton"
+                android:text="@string/increaseButton" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/supplierName"
+                android:inputType="text"
+                android:hint="@string/supplier_name"
+                style="@style/Editor_Style" />
+
+            <EditText
+                android:id="@+id/supplierNumber"
+                android:inputType="number"
+                android:hint="@string/supplier_phone_number"
+                style="@style/Editor_Style" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:Context=".InventoryActivity">
+
+    <item android:id="@+id/insert"
+        android:title="@string/insert_item" />
+
+    <item android:id="@+id/deleteAll"
+        android:title="@string/delete_all_products" />
+
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="noItem">No item in inventory</string>
+    <string name="productName">Product Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone_number">Supplier Phone Number</string>
+    <string name="unsavedChanges">Are you sure you want to discard unsaved changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keepEditing">Keep Editing</string>
+    <string name="delete_all_products">Delete All Products</string>
+    <string name="insert_item">Insert Item</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="dollar">$</string>
+    <string name="increaseButton">+</string>
+    <string name="decreaseButton">-</string>
+    <string name="sale">Sale</string>
+    <string name="allDeleted">All items deleted.</string>
+    <string name="addProduct">Add a Product</string>
+    <string name="editProduct">Edit Product</string>
+    <string name="insertingFailed">Inserting product failed</string>
+    <string name="insertingSuccessful">Inserting product successful</string>
+    <string name="editingFailed">Editing Product Failed</string>
+    <string name="editingSuccessful">Editing product successful.</string>
+    <string name="fillFields">Please fill product and supplier name fields.</string>
+    <string name="deletingFailed">Deleting product failed.</string>
+    <string name="deletingSuccessful">Deleting product successful.</string>
+    <string name="wantToDelete">Are you sure want to delete this item?</string>
+    <string name="cancel">Cancel</string>
+    <string name="tel">tel:</string>
+    <string name="call">Call</string>
+</resources>
